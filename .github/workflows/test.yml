@@ -17,9 +17,13 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '18'
+        cache: 'npm' # Recommended: speeds up future workflow runs
     
     - name: Install dependencies
-      run: npm install
+      run: npm ci # Recommended over npm install for CI builds
+    
+    - name: Fix binary permissions
+      run: chmod -R +x node_modules/.bin
     
     - name: Run tests
       run: npm test
