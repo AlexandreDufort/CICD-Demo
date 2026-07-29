@@ -1,0 +1,24 @@
+{
+  "name": "cicd-demo",
+  "version": "1.0.0",
+  "description": "Exploring and testing CI/CD dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreDufort/CICD-Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AlexandreDufort/CICD-Demo/issues"
+  },
+  "homepage": "https://github.com/AlexandreDufort/CICD-Demo#readme",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
